@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1">
+    <title>Sagar Tours and Travels Private Ltd Sight Seeing</title>
+    <script language="javascript" type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.8.16.redmond/css/redmond/jquery-ui-1.8.16.custom.css" />
+    <script language="javascript" type="text/javascript" src="plugins/jquery-ui-1.8.16.redmond/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/default.css" />
+    <style type="text/css">
+        /*.ui-dialog-titlebar{display:none;}*/
+        .ui-dialog-titlebar{padding-top:0px !important;;padding-bottom:0px !important;}
+        .ui-dialog-titlebar span{color:#ffffff;}
+        .ui-dialog-content{padding:5px !important;}
+    </style>
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function() {
+            $( "#imgDialog" ).dialog({
+                autoOpen: false,
+                show: "blind",
+                hide: "blind",
+                resizable: false,
+                height: 285,
+                width: 360
+            });
+            $( "img.dialog" ).click(function() {
+                //alert($(this).attr('id'));
+                $("#imgDialog").dialog( "option", "title", $(this).attr('title') );
+                $("#divImg").html("<img style='height : 250px; width : 350px;' title='" + $(this).attr('title') + "' src='" + $(this).attr('large') + "' />")
+                $("#imgDialog").dialog( "open" )
+            });
+        });
+    </script>
+</head>
+<body>
+        <form id="form1">
+            <div id="container">
+                 <div id="header">
+           <marquee style="margin:0 auto;width:750px;position:absolute;top: 1px; " direction="right" scrollamount="7" ><i>God's blessed country</i></marquee>
+            <marquee style="margin:0 auto;width:750px;position:absolute;top: 39px; "  scrollamount="5" ><i>Andaman</i></marquee>
+            <marquee style="margin:0 auto;width:750px;position:absolute;top: 78px; " direction="right" scrollamount="8" ><i>The Emarald Islands in a Bay of Bengal</i></marquee>
+                <div id="logo"><img src="images/logo.jpg" /></div>                       
+                </div>
+                <div class="mattblacktabs">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li class="selected"><a href="sightseeing.html">Sight Seeing</a></li>
+                    <li><a href="overlandtours.html">Overland Tours</a></li>
+                    <li><a href="optionaltours.html">Optional Tours</a></li>
+                    <li><a href="tourplan.html">Tour Plan</a></li>
+                    <li style="display:none;"><a href="inquiry.html">Inquiry</a></li>
+                </ul>
+                    
+                </div>
+                <div id="container2">
+                    <div id="content2" >
+                    <h1>Places Of Tourist Interest</h1>
+                    <b>Island Excursions </b>(Depending upon the option of package selected by the guest)<br /><br />
+                     <div id="island_Sight">
+                            <div style="border:solid 1px Black;width:125px;float:left;margin-right : 20px;">
+                            <img class="dialog" id="ibCoral" 
+                                     src="images/1IslandJollyBuoy.jpg" alt="Jolly Buoy Island" 
+                                     title="Jolly Buoy Island" large="images\large\1IslandJollyBuoy.jpg" />
+                             <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                            <div style="border:solid 1px Black;width:125px;float:left;margin-right : 20px;">
+                             <img class="dialog" id="ibRoss" 
+                                     src="images/2Island_Ross.jpg" alt="Ross Island" 
+                                     title="Ross Island" large="images\large\2Island_Ross.jpg" />
+                            <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                            <div style="border:solid 1px Black;width:125px;float:left;margin-right : 20px;">
+                            <img class="dialog" id="ibViper" 
+                                     src="images/viperisland-3n.jpg" alt="Viper Island" 
+                                     title="Viper Island" large="images\large\viperisland-3.jpg" />
+                            <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div> 
+                            <div style="border:solid 1px Black;width:125px;float:left;margin-right : 20px;">
+                            <img class="dialog" id="ibHave" 
+                                     src="images/4HavelockDolphinResort.jpg" alt="Havelock Dolphin Resort" 
+                                     title="Havelock Dolphin Resort" large="images\large\4HavelockDolphinResort.jpg" />
+                            <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                            
+                             <div style="border:solid 1px Black;width:125px;float:left;margin-right : 20px;">
+                            <img class="dialog" id="ibBear" 
+                                     src="images/5BearFootResort.jpg" alt="Bear Foot Resort" 
+                                     title="Bear Foot Resort" large="images\large\5BearFootResort.jpg" />
+                            <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                        
+                        </div>
+                    <!-- b>Jollybuoy Island or Redskin Island</b -->
+                        <div>                          
+                            <div><div class="sight_left"><br /><b>Coral Island</b><br />(Full day tour)</div><div class="sight_right"><p>A full day tour to watch underwater coral and marine life through glass bottomed boat . To reach the island, we shall first take you to Wandoor National Marine Park by a vehicle to embark a motor Launch. Safe for swimming and snorkeling.</p></div></div>
+                            <div><div class="sight_left"><br /><b>Ross Island</b><br /> (Half day tour)</div><div class="sight_right"><p>Historically important - located at the mouth of Port Blair Harbour, Ross Island was the seat of Imperial Administration till the island fell into the hands of Japanese in 1942. Known as the 'Paris of the East' the island is having old buildings and monuments of immense Archaeological value.</p></div></div>
+                            <div><div class="sight_left"><br /><b>Viper Island</b><br /> (Half day tour)</div><div class="sight_right"><p>Viper Island stands as a mute witness to the grim sufferings that the freedom fighters of our country had to undergo during the British rule. The British used to keep dangerous prisoners who resorted to hunger strikes and non-cooperation at a jail built in the Island.</p></div></div>
+                            <div><div class="sight_left"><br /><br /><b>Havelock Island</b></div><div class="sight_right"><p>An Island located South Adnaman group and to reach the island it takes 4-5 hours by a motor boat. A beach at Radhanagar is world famous. Most ideal place for tent-camping. At Havelock, the tourism department has accommodation right in front of the beach. Subject to availability of ship sailings, guest can visit the island with an itinerary to return on the same day however we recommend a guest staying at least 1 night in the island.
+                            <br /><b>(This tour is covered under our 4 nights / 5 nights / 6 nights package deal)</b></p></div></div>
+                        </div>     
+                    </div>
+                    <div id="footer">
+                Copyright &copy; 2008 Sagar Tours and Travels [P] Ltd, All Rights Reserved.
+                </div>
+                </div>
+            </div>
+            <div id="imgDialog" title="">
+                <div id="divImg">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,192 @@
+﻿body 
+{
+	margin : 0 0;
+	padding : 0 0;
+	background: White;
+}
+#container 
+{
+width: 750px;
+margin: 0 auto;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 11px;
+line-height: 1.6em;
+color: #666666;
+/*background-color: #FFFFFF;
+background:#F2F5FE url("bg.gif") 0 0 repeat-x; */
+}
+#container2
+{
+	padding-left : 5px;
+	padding-right : 5px;
+}
+
+.mattblacktabs
+    {
+    width: 100%;
+    overflow: hidden;
+    background: #4E6D63;    
+    }
+    .mattblacktabs ul
+    {
+    margin: 0;
+    padding: 0;
+    font: bold 11px Arial;
+    list-style-type: none;
+    letter-spacing : 1px;
+    }
+    .mattblacktabs li
+    {
+    display: inline;
+    margin: 0;
+    }
+    .mattblacktabs li a
+    {
+    float: left;
+    display: block;
+    text-decoration: none;
+    margin: 0;    
+    padding : 10px 10px 10px 10px;
+    border-right: 1px solid White; /*right divider between tabs */
+    color: white;
+    background: #4E6D63; /* background of tabs (default state)*/
+    }
+    .mattblacktabs li a:hover, .mattblacktabs li.selected a{
+/*background: #999900; background of tabs for hover state, plus tab with "selected" class assigned to its LI */
+background: #0E7BB4; /* background of tabs (default state)*/
+
+}
+#container p {
+	  padding-bottom: 10px;
+	  border-bottom: 1px solid #DDDDDD;
+	  }
+#leftcontent
+{
+	width : 515px;
+	/* border : solid 1px red; */
+	float : left;
+	padding-left : 10px;
+	
+	
+}
+#rightcontent
+{
+	width : 200px;
+	border : solid 1px #DDDDDD; 
+	float : left;
+	min-height : 300px;
+	margin-left : 5px;
+	
+	
+}
+#footer {
+	  margin-top: 0px;
+	  padding-top: 8px;
+	  padding-bottom: 8px;	  
+	  clear: both;
+	  width: 750px;
+	  /* background-color:#2763A5; */
+	  background-color:#DCDCDC;
+	  color :Gray;
+	  text-align : center;
+	  }
+	  
+#footer a
+{
+   color : Black;
+   text-decoration : none;	
+}
+	  
+   h1 {
+	  font-family: Verdana, Arial, Helvetica, sans-serif;
+	  font-weight: bold;
+	  font-size: 13px;
+	  color:  #666666;
+	  /*margin-bottom: 30px;*/
+	   
+	  }		
+	.home_img
+	{
+	width:175px;
+	float:left;	
+	border : solid 1px #DDDDDD;
+	margin-right : 5px;
+	margin-top : 5px;		
+	padding-top : 5px;
+    font-weight : bold;	
+		
+	}
+	.home_img2
+	{
+	width:175px;
+	float:left;	
+	border : solid 1px #DDDDDD;
+	margin-right : 5px;
+	margin-top : 5px;	
+	padding-top : 5px;
+	margin-bottom : 25px;
+	font-weight : bold;			
+	}
+	
+	/************************* Css for Ajax Modal Popup ****************************/
+.modalPopup {
+	background-color: Smokewhite;
+	border-width:3px;
+	/* */ 
+}
+
+.modalPopupInq {
+	background-color: Smokewhite;
+	border-width:3px;
+	width:690px;
+	/* */ 
+}
+
+.modalBackground {
+	/*background-color:Gray;*/
+	filter:alpha(opacity=30);
+	opacity:0.3;
+}
+
+/******************************************************************************************/
+
+.validatorCalloutHighlight 
+{
+    background-color: lemonchiffon;  
+    border:solid 1px red;
+}
+input, textarea
+{
+	font: 10px verdana, arial, helvetica, sans-serif;
+}
+.sight_left
+{
+ width : 100px;
+ float : left;	
+}
+.sight_right
+{
+	width : 625px;
+	float : left;
+}
+.overland_left
+{
+	width : 590px;
+	float : left;
+}
+.overland_right
+{
+	float:right;
+	border:solid 1px Black;
+	width:125px;
+}
+marquee
+{
+ font-weight : bold;
+ color : Blue;
+ font-family : Tahoma;	
+}
+center, span
+{
+  color : Blue;
+}

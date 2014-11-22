@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1">
+    <title>Sagar Tours and Travels Private Ltd Services</title>
+    <script language="javascript" type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.8.16.redmond/css/redmond/jquery-ui-1.8.16.custom.css" />
+    <script language="javascript" type="text/javascript" src="plugins/jquery-ui-1.8.16.redmond/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/default.css" />
+    <style type="text/css">
+        /*.ui-dialog-titlebar{display:none;}*/
+        .ui-dialog-titlebar{padding-top:0px !important;;padding-bottom:0px !important;}
+        .ui-dialog-titlebar span{color:#ffffff;}
+        .ui-dialog-content{padding:5px !important;}
+    </style>
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function() {
+            $( "#imgDialog" ).dialog({
+                autoOpen: false,
+                show: "blind",
+                hide: "blind",
+                resizable: false,
+                height: 285,
+                width: 360
+            });
+            $( "img.dialog" ).click(function() {
+                //alert($(this).attr('id'));
+                $("#imgDialog").dialog( "option", "title", $(this).attr('title') );
+                $("#divImg").html("<img style='height : 250px; width : 350px;' title='" + $(this).attr('title') + "' src='" + $(this).attr('large') + "' />")
+                $("#imgDialog").dialog( "open" )
+            });
+        });
+    </script>
+</head>
+<body>
+        <form id="form1">
+                    <div id="container">
+                         <div id="header">
+             <marquee style="margin:0 auto;width:750px;position:absolute;top: 1px; " direction="right" scrollamount="7" ><i>God's blessed country</i></marquee>
+            <marquee style="margin:0 auto;width:750px;position:absolute;top: 39px; "  scrollamount="5" ><i>Andaman</i></marquee>
+            <marquee style="margin:0 auto;width:750px;position:absolute;top: 78px; " direction="right" scrollamount="8" ><i>The Emarald Islands in a Bay of Bengal</i></marquee>
+                <div id="logo"><img src="images/logo.jpg" /></div>                       
+                </div>
+                        <div class="mattblacktabs">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li class="selected"><a href="services.html">Services</a></li>
+                            <li><a href="sightseeing.html">Sight Seeing</a></li>
+                            <li><a href="overlandtours.html">Overland Tours</a></li>
+                            <li><a href="optionaltours.html">Optional Tours</a></li>
+                            <li><a href="tourplan.html">Tour Plan</a></li>
+                            <li style="display:none;"><a href="inquiry.html">Inquiry</a></li>
+                        </ul>
+                        </div>
+                        <div id="container2" >
+                            <div id="content2"  >
+                           <h1>Services Covered In Our Andaman Tours</h1>
+                           <b>Andaman Tour Package</b>
+                           <div id="leftcontainer" style="width : 588px;float : left; padding-right: 10px;">
+                          <p>1) <b>Onwards and return journeys</b>  - available options:<br /><br />
+                           
+                           a) Both ways by Ship AC (A - Class), AC (B - Class) or AC (Bunk class). <br /><br />
+                            <b>*</b> DLX - class cabin [2 berthed cabins with attached bathroom also with a small refrigerator]<br />
+                            <b>*</b> A - Class cabin [4 berthed cabin with attached bathroom]<br />  
+                            <b>*</b> B - Class cabin [6 berthed cabin with common bathroom]<br />
+                            <b>*</b> Bunk - class [Dormitory berths with common bathroom]<br /><br />
+                                                    
+                           b) Both ways by Air (ex Chennai or Kolkata) by Indian airlines, Jet airways, Fly Kingfisher, Jetlite depending upon availability of seats at the time of booking.<br /><br />
+
+                           c) Or onward by ship by any option of ship class with a combination of air travel in the return journey.<br /><br />
+                           
+                           <span style="color:blue">P.S.  Passenger should note that the ships operated on Andaman Sector are not Cruise ship. The ships are basically for the transportation of the islanders, some cabin berths are spared for tourists.</span></p>  
+
+                           </div>
+                            <div id="rightcontainer" style="width : 127px;float : left;padding-bottom : 80px;">
+                            <div style="border : solid 1px Black;">
+                            <img class="dialog" id="ibSwaraj" 
+                                     src="images/SwarajDeepn.jpg" alt="Swaraj Deep" 
+                                     title="Swaraj Deep" large="images\large\SwarajDeep.jpg" /><br />
+                                     <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">
+                                     Click To Enlarge</span></div> 
+                           </div>
+                           <div style="float:left;width:265px;">
+                           <div style="float:left;width:125px;padding-right:5px;">
+                           <div style="border:solid 1px Black; width:125px;clear : both;float : left;margin-bottom : 5px;">
+                           <img class="dialog" id="ibFortune" 
+                                     src="images/fortuneresortn.jpg" alt="Fortune Resort" 
+                                     title="Fortune Resort" large="images\large\fortuneresort.jpg" />
+                           <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                           <div style="border:solid 1px Black; width:125px;clear : both;float : left;margin-bottom : 5px;">
+                           <img class="dialog" id="ibMegapode" 
+                                     src="images/megapodenestn.jpg" alt="Megapode Nest" 
+                                     title="Megapode Nest" large="images\large\megapodenest.jpg" />
+                           <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                           <div style="border:solid 1px Black; width:125px;clear : both;float : left;margin-bottom : 5px;">
+                            <img class="dialog" id="ibNicobar" 
+                                     src="images/nicobarihutn.jpg" alt="Nicobar Hut" 
+                                     title="Nicobar Hut" large="images\large\nicobarihut.jpg" />
+                          <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                           </div>
+                           <div style="float:left;width:125px;padding-right:5px;">
+                           <div style="border:solid 1px Black;width:125px;clear:both;float:left;margin-bottom : 5px;">
+                            <img class="dialog" id="ibPeer" 
+                                     src="images/peerlessn.jpg" alt="Peerless Resort" 
+                                     title="Peerless Resort" large="images\large\peerless.jpg" />
+                          <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                           <div style="border:solid 1px Black;width:125px;clear:both;float:left;margin-bottom : 5px;">
+                           <img class="dialog" id="ibHornbill" 
+                                     src="images/SunSeaResort.jpg" alt="Sun Sea Resort" 
+                                     title="Sun Sea Resort" large="images\large\SunSeaResort.jpg" />
+                                     
+                          <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                           <div style="border:solid 1px Black;width:125px;clear:both;float:left;margin-bottom : 5px;">
+                               <img class="dialog" id="ibPalm" src="images/Sinclairs%20Bay%20View.jpg"
+                                   alt="Sinclairs Bay View" title="Sinclairs Bay View" large="images\large\Sinclairs%20Bay%20View.jpg" />
+                          <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span></div>
+                           </div>
+                               
+                           </div>
+                           <div style="float:left;width:455px;">
+                            2) Accommodation on CP plan and sight seeing as per your package tour option from 3 nights/4th day morning checkout up to 6 nights/7th morning checkout as per our standard sight seeing package Morning tea and Breakfast is covered by us - as per our standard menu.
+                    
+                        <br /><br />
+                        Accommodation shall be in best properties in the Islands - All resort over looking the sea or on a beach .As a matter of policy we don't deal with lodges and properties which are of substandard nature.
+                           <br /><br />
+                        Sight seeing shall be by a Non - Ac Car / Maruti Van (subject to minimum 2 - persons) as per our sight seeing standards itinerary timings indicated in a trip sheet handed over on arrival of guests.
+                           <br /><br />
+                        Arrival and Departure Transfers Airport to stay, Stay to airport / harbour are a part of our package.
+                         
+                           </div>                             
+                                
+                            
+                            </div>
+                          
+                            <div id="footer">
+                        Copyright &copy; 2008 Sagar Tours and Travels [P] Ltd, All Rights Reserved.
+                        </div>
+                      
+                        </div>
+                    </div>
+            <div id="imgDialog" title="">
+                <div id="divImg">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>

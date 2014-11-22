@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1">
+    <title>Sagar Tours and Travels Private Ltd About Us</title>
+    <script language="javascript" type="text/javascript" src="scripts/jquery-1.6.4.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="plugins/jquery-ui-1.8.16.redmond/css/redmond/jquery-ui-1.8.16.custom.css" />
+    <script language="javascript" type="text/javascript" src="plugins/jquery-ui-1.8.16.redmond/js/jquery-ui-1.8.16.custom.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/default.css" />
+    <style type="text/css">
+        /*.ui-dialog-titlebar{display:none;}*/
+        .ui-dialog-titlebar{padding-top:0px !important;;padding-bottom:0px !important;}
+        .ui-dialog-titlebar span{color:#ffffff;}
+        .ui-dialog-content{padding:5px !important;}
+    </style>
+    <script language="javascript" type="text/javascript">
+        $(document).ready(function() {
+            $( "#imgDialog" ).dialog({
+                autoOpen: false,
+                show: "blind",
+                hide: "blind",
+                resizable: false,
+                height: 285,
+                width: 360
+            });
+            $( "img.dialog" ).click(function() {
+                //alert($(this).attr('id'));
+                $("#imgDialog").dialog( "option", "title", $(this).attr('title') );
+                $("#divImg").html("<img style='height : 250px; width : 350px;' title='" + $(this).attr('title') + "' src='" + $(this).attr('large') + "' />")
+                $("#imgDialog").dialog( "open" )
+            });
+        });
+    </script>
+</head>
+<body>
+        <form id="form1">
+            <div id="container">
+                <div id="header">
+             <marquee style="margin:0 auto;width:750px;position:absolute;top: 1px; " direction="right" scrollamount="7" ><i>God's blessed country</i></marquee>
+            <marquee style="margin:0 auto;width:750px;position:absolute;top: 39px; "  scrollamount="5" ><i>Andaman</i></marquee>
+            <marquee style="margin:0 auto;width:750px;position:absolute;top: 78px; " direction="right" scrollamount="8" ><i>The Emarald Islands in a Bay of Bengal</i></marquee>
+                <div id="logo"><img src="images/logo.jpg" /></div>                       
+                </div>
+                <div class="mattblacktabs">
+                <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="sightseeing.html">Sight Seeing</a></li>
+                <li class="selected"><a href="overlandtours.html">Overland Tours</a></li>
+                <li><a href="optionaltours.html">Optional Tours</a></li>
+                <li><a href="tourplan.html">Tour Plan</a></li>
+                <li style="display:none;"><a href="inquiry.html">Inquiry</a></li>
+                </ul>
+                </div>
+                <div id="container2">
+                    <div id="content2" >
+                    <h1>Overland Tours (covered in Our Standard tour packages)</h1>
+                    <div>
+                        <div><div class="overland_left">
+                        <b>City Tour (except on Mon/Wed)</b>                             
+                        <p>The City tour covers the Asia second largest Saw Mill at Chatham, Forest Museum depicting forest wealth and wildlife, Samudrika Museum (Oceanic environments), Sagarika (Handi-Crafts) Emporium - Anthropoligical Survey Museum - Marine Fisheries Museum and Cellular Jail Complex.<br /><br /></p>
+                        </div>
+                        <div class="overland_right">                            
+                        <img class="dialog" id="ibSawmill" 
+                                     src="images/sawmill-An.jpg" alt="Sawmill" 
+                                     title="Sawmill" large="images\large\sawmill-A.jpg"  />
+                        <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span>
+                        </div>
+                        </div>
+                        <div><div class="overland_left">
+                        <p>The tour covers visit to Water Sports Complex at Aberdeen where you can hire a speed boat, water scooter or sea surfing on payment of usual charges to the operator(s). Followed by this, you will drive about 6 kms south to a beach at corbyns' cove, reminds a tourist of Goa or Kovalam in Kerala. The beach has an ideal sea for swimming.<br /><br />
+                        </p>
+                        </div>                        
+                        <div class="overland_right">
+                         <img class="dialog" id="ibSport" 
+                                     src="images/sportscomplex-Bn.jpg" alt="Sports Complex" 
+                                     title="Sports Complex" large="images\large\sportscomplex-B.jpg"  />
+                        <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span>
+                        </div></div>
+                        <div><div class="overland_left">
+                        <p>After an hour's halt at the beach, you will drive down to Port Blair to visit Gandhi Park, where amusements for children like Toy Train, Pedal Boats, etc., are available. The park has a lake, a walk around, a narrow foot-path provides you a great feelings due to its environments. Before your return to the stay you will be taken to Cellular Jail Complex to watch <b>Sound & Light Show at Cellular Jail</b>.<br /><br /></p>
+                        </div>
+                        <div class="overland_right">
+                        <img class="dialog" id="ibCell" 
+                                     src="images/cellularjail-cn.jpg" alt="Cellular Jail" 
+                                     title="Cellular Jail" large="images\large\cellularjail-c.jpg" />
+                        <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span>
+                        </div></div>
+                        <div><div class="overland_left">
+                        <b>Chiriyatapu</b>                 
+                        <p>Famous for enchanting view that it presents to the visitors and a paradise for the Bird Watchers. Adorned with a beautiful beach, Chiriyatapu offers you a best picnic spot, a great 'Sun Set'.<br /><br /><br /></p>
+                        </div><div class="overland_right">
+                         <img class="dialog" id="ibSunset" 
+                                     src="images/ChidiyaTapu.jpg" alt="Chidiya Tapu" 
+                                     title="Chidiya Tapu" large="images\large\ChidiyaTapu.jpg" />
+                        <span style="padding-left : 18px;font-size : x-small;font-weight : bold;">Click To Enlarge</span>
+                        </div></div>
+                    </div>
+                    </div>
+                   
+                    <div id="footer">
+                Copyright &copy; 2008 Sagar Tours and Travels [P] Ltd, All Rights Reserved.
+                </div>
+                </div>
+            </div>
+            <div id="imgDialog" title="">
+                <div id="divImg">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
